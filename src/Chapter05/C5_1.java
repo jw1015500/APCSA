@@ -1,12 +1,15 @@
 package Chapter05;
 
 import java.util.Scanner;
+
 /**
  * Finding the amount of positive and negative numbers
+ *
  * @author Jake Witcher
  */
 public class C5_1 {
-  /**
+
+    /**
      * Main method
      *
      * @param args command line arguments

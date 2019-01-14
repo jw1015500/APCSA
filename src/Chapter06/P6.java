@@ -1,13 +1,17 @@
 package Chapter06;
+
 import java.util.Scanner;
+
 /**
  * Currency converter
+ *
  * @author Jake Witcher
  */
 public class P6 {
-  /**
-     * Main method
-     * Convert method
+
+    /**
+     * Main method Convert method
+     *
      * @param args command line arguments
      */
     public static void main(String[] args) {
@@ -47,6 +51,13 @@ public class P6 {
 
     }
 
+    /**
+     * method Converting one currency to another
+     *
+     * @param dollars The amount of dollars being converted
+     * @param exchangeRate The rate that the dollars are being change
+     * @return The new currency that has been converged into
+     */
     public static double convert(double dollars, double exchangeRate) {
         if (dollars > 100) {
             return 0.95 * dollars * exchangeRate;

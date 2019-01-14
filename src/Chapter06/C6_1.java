@@ -1,13 +1,17 @@
 package Chapter06;
+
 import java.util.Scanner;
+
 /**
  * Password
+ *
  * @author Jake Witcher
  */
 public class C6_1 {
-  /**
-     * Main method
-     * isValid method
+
+    /**
+     * Main method isValid method
+     *
      * @param args command line arguments
      */
     public static void main(String[] args) {
@@ -18,6 +22,12 @@ public class C6_1 {
         System.out.println(isValid(password) ? "Valid Password" : "Invalid Password");
     }
 
+    /**
+     * method Testing the password to see if it qualifies as a password
+     *
+     * @param password the password the user put into the program
+     * @return if the password is good or bad
+     */
     public static boolean isValid(String password) {
         // Atleast 8 characters
         if (password.length() < 8) {

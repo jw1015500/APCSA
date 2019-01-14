@@ -1,11 +1,15 @@
 package Chapter05;
+
 import java.util.Scanner;
+
 /**
  * Voting
+ *
  * @author Jake Witcher
  */
 public class P5 {
-  /**
+
+    /**
      * Main method
      *
      * @param args command line arguments
